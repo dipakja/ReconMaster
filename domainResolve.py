@@ -28,7 +28,7 @@ if __name__=="__main__":
             
      # Save results to a file for the next module
      
-     with open("resolved_ips.txt", "w") as f:
+        with open("resolved_ips.txt", "w") as f:
          f.write("\n".join(resolved_ips))
 
 

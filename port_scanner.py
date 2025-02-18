@@ -1,11 +1,12 @@
 import subprocess
 
 def scan_ports(ip):
-print("f\n[+] Scanning {ip} for open ports...")
+  print("f\n[+] Scanning {ip} for open ports...")
 
-result=subprocess.run(["nmap","-p-","-sV","--open",ip], capture_output=True,text=True)
+  result=subprocess.run(["nmap","-p-","-sV","--open",ip], capture_output=True,text=True)
 
-return result.stdout
+  return result.stdout
+
 
 if __name__ == "__main__":
     

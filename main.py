@@ -42,7 +42,7 @@ if __name__ == "__main__":
    
     print("\n[+] Starting port scanning...")
     for ip in resolved_ips:
-    port_scanner.scan_ports(ip)
+      port_scanner.scan_ports(ip)
     
     
      # Step 4: Scan for vulnerabilities
